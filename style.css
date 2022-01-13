@@ -1,0 +1,39 @@
+body{
+    background-color: darksalmon;
+}
+
+h1{
+    background-color: deeppink;
+    color: rgb(10, 0, 10);
+}
+
+#show_sketch {
+    float : right;
+    background-color : rgba(240, 255, 240, 0);
+}
+
+
+canvas {
+border: 5px solid black;
+border-radius: 20px;
+animation-name: shadows ;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+margin-top: 25px;
+
+}
+
+@keyframes shadows{
+from{box-shadow : 5px 5px 100px rgb(38, 250, 0)}
+to{box-shadow : 5px 5px 100px rgb(2, 18, 252) }
+
+}
+
+
+
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
